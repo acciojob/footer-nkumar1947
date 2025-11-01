@@ -1,120 +1,60 @@
-.footer-main {
-  background-color: #111;
+footer {
+  background: #000;
   color: #fff;
-  padding: 40px 80px;
-  font-family: "Poppins", sans-serif;
+  padding: 40px 60px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   border-bottom: 1px solid #333;
   padding-bottom: 20px;
 }
 
-.footer-top h3 {
-  font-size: 28px;
-  font-weight: 600;
-}
-
 .footer-top i {
-  background-color: #222;
-  color: #fff;
-  font-size: 18px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   margin-left: 10px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.footer-top i:hover {
-  background-color: #1877f2;
-  transform: scale(1.1);
+  font-size: 20px;
+  background: #222;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 30px;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 200px;
-  margin-bottom: 20px;
-}
-
 .footer-section h3 {
-  font-size: 18px;
   margin-bottom: 10px;
   border-bottom: 2px solid #444;
-  padding-bottom: 5px;
+  display: inline-block;
 }
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin: 8px 0;
+.footer-section div {
+  margin: 6px 0;
 }
 
 .footer-section a {
-  text-decoration: none;
   color: #ccc;
-  transition: 0.3s;
+  text-decoration: none;
 }
 
 .footer-section a:hover {
   color: #fff;
 }
 
-.footer-section p {
-  margin: 5px 0;
-}
-
 .footer-bottom {
   text-align: center;
   border-top: 1px solid #333;
-  margin-top: 30px;
-  padding-top: 15px;
-  font-size: 14px;
+  margin-top: 20px;
+  padding-top: 10px;
   color: #aaa;
 }
 
 .footer-bottom a {
   color: #ccc;
   text-decoration: none;
-  margin-left: 10px;
-}
-
-.footer-bottom a:hover {
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  .footer-top {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-section {
-    width: 100%;
-  }
 }
