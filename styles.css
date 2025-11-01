@@ -1,1 +1,8 @@
-/* your code here */
+body{
+	background-color:black;
+}
+
+
+.footer-section,a,footer{
+	color:white
+}
