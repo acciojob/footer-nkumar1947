@@ -5,6 +5,11 @@ footer {
   font-family: 'Poppins', sans-serif;
 }
 
+.media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 .footer-top {
   display: flex;
   justify-content: space-between;
